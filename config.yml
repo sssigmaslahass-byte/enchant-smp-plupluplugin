@@ -1,0 +1,44 @@
+# Enchant on every kill (toggle in-game with /ie killrewards on|off)
+kill-rewards:
+  enabled: true
+  # also give an enchant for killing mobs (default: only players)
+  mobs: false
+
+# Timed reward: 1 random enchant on the item you are holding
+reward:
+  enabled: true
+  # minutes of ONLINE time between rewards (240 = 4 hours)
+  minutes: 240
+
+# On death: this plugin's enchants are stripped from the player's items and
+# dropped as enchanted books. Click a book onto any item in your inventory to apply it.
+strip-on-death: true
+
+# Enchantments that can be obtained (tool-ish only, so armor stays normal).
+# Use vanilla keys. Each enchant can only be owned by ONE player per level.
+pool:
+  - sharpness
+  - smite
+  - bane_of_arthropods
+  - knockback
+  - fire_aspect
+  - looting
+  - sweeping_edge
+  - efficiency
+  - silk_touch
+  - unbreaking
+  - fortune
+  - power
+  - punch
+  - flame
+  - infinity
+  - luck_of_the_sea
+  - lure
+  - mending
+  - quick_charge
+  - piercing
+  - multishot
+  - impaling
+  - density
+  - breach
+  - wind_burst

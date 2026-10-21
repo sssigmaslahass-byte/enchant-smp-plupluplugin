@@ -1,0 +1,14 @@
+name: InfinityEnchants
+version: '${project.version}'
+main: com.example.infinityenchants.InfinityEnchants
+api-version: '1.21'
+description: Enchant anything with anything. Unique enchants per player, infinite food/totems/potions.
+commands:
+  ie:
+    description: InfinityEnchants main command
+    usage: /ie <list|killrewards|grant|release|reload>
+    aliases: [infinityenchants]
+permissions:
+  infinityenchants.admin:
+    description: Use admin subcommands
+    default: op

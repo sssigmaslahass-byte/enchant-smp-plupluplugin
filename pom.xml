@@ -32,10 +32,15 @@
 
     <build>
         <finalName>InfinityEnchants</finalName>
+        <sourceDirectory>${project.basedir}</sourceDirectory>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>${project.basedir}</directory>
                 <filtering>true</filtering>
+                <includes>
+                    <include>plugin.yml</include>
+                    <include>config.yml</include>
+                </includes>
             </resource>
         </resources>
     </build>
